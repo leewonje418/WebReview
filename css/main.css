@@ -44,4 +44,12 @@ section.visual .title {position: absolute; top:40%; left: 8%;
 color: #fff;}
 section.visual .title h2{font-size: 50px; margin-bottom: 30px;}
 section.visual .title p {font-size: 20px; font-weight: 300; bottom: 15%; left: 8%;}
-section.visual .menu {position: absolute;}
+section.visual .menu {position: absolute; bottom: 15%; left: 8%;
+}
+section.visual .menu li {float: left; margin-right: 60px;}
+section.visual .menu li a{display: block; color: #fff;} 
+section.visual .menu li a p{float: left; font-weight: bold; font-size: 20px;
+line-height: 1.6;}
+section.visual .menu li a p span {display: block; font-weight: 100; font-size: 15px;
+color: #aaa;}
+section.visual .menu li a .arrow P{display: block;}
