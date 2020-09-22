@@ -52,4 +52,6 @@ section.visual .menu li a p{float: left; font-weight: bold; font-size: 20px;
 line-height: 1.6;}
 section.visual .menu li a p span {display: block; font-weight: 100; font-size: 15px;
 color: #aaa;}
-section.visual .menu li a .arrow P{display: block;}
+section.visual .menu li a .arrow P{display: block; float: right; margin-top: 10px;
+margin-left: 20px; position: relative; z-index: 1;}
+section.visual .menu li a .arrow:before {}
